@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/grid_item_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="10px" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/grid_item_label"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:singleLine="true"
+        android:text="@+id/label"
+        android:textColor="#317bEE"
+        android:textSize="19dp" />
+
+    <ImageView
+        android:id="@+id/grid_item_image"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/nextbtn_" >
+    </ImageView>
+
+    <View
+        android:id="@+id/separator"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="#c7bebe" />
+
+    <TextView
+        android:id="@+id/language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="17dp"
+        android:layout_toLeftOf="@+id/grid_item_image"
+        android:text="Language"
+        android:textColor="#c7bebe" />
+
+    <TextView
+        android:id="@+id/tdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/grid_item_image"
+        android:layout_marginRight="17dp"
+        android:text="Date"
+        android:textColor="#c7bebe" />
+
+    <!-- <com.mobatia.mibblio.manager.MarqueeTextManager -->
+    <!-- android:id="@+id/grid_item_label" -->
+    <!-- android:layout_width="180dp" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_centerInParent="true" -->
+    <!-- android:layout_centerVertical="true" -->
+    <!-- android:ellipsize="marquee" -->
+    <!-- android:marqueeRepeatLimit="marquee_forever" -->
+    <!-- android:singleLine="true" -->
+    <!-- android:textColor="#ffffff" -->
+    <!-- android:textStyle="bold" /> -->
+
+</RelativeLayout>

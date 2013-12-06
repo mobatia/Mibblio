@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Test App</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+     <string name="common_error_message">Cannot continue at this time, Please try again later</string>
+     <string name="Internet_check">Cannot continue at this time, Please check your internet connectivity</string>
+
+</resources>
